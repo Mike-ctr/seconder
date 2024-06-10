@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+nav{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+}
+nav ul{
+    display: flex;
+
+}
+nav ul li{
+    margin: 50px;
+}
+nav ul li a{
+    color: antiquewhite;
+}
+.container{
+    background: url(gt.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.container h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    right: 0;
+}
+.span{
+    color: gold;
+
+}
+.red{
+    color: red;
+}
+.read{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    right: 0;
+}
+
+.about{
+    min-height: 100vh;
+}
